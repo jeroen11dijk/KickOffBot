@@ -1,6 +1,6 @@
 from rlbot.agents.base_agent import BaseAgent, SimpleControllerState
 from rlbot.utils.game_state_util import GameState, BallState, Physics, Vector3
-from rlbot.utils.structures.game_data_struct import GameTickPacket, Vector3, Physics
+from rlbot.utils.structures.game_data_struct import GameTickPacket
 
 from NomBot.NomBot import NomBot_1_5
 from derevo.derevo import Derevo
