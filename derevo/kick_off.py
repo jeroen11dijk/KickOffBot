@@ -9,11 +9,13 @@ from derevo.util import get_closest_small_pad, sign, distance_2d, lerp
 
 
 class Step(Enum):
-    Drive = 5
-    Drive_1 = 6
-    Dodge = 7
-    Dodge_1 = 8
-    Dodge_2 = 9
+    Steer = 1
+    Drive = 2
+    Drive_1 = 3
+    Dodge = 4
+    Dodge_1 = 5
+    Dodge_2 = 6
+    Catching = 7
 
 
 def init_kickoff(agent):
